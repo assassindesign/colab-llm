@@ -1,0 +1,44 @@
+{
+  "_name_or_path": "tiiuae/falcon-7b",
+  "alibi": false,
+  "apply_residual_connection_post_layernorm": false,
+  "architectures": [
+    "RWForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "auto_map": {
+    "AutoConfig": "tiiuae/falcon-7b--configuration_RW.RWConfig",
+    "AutoModel": "tiiuae/falcon-7b--modelling_RW.RWModel",
+    "AutoModelForCausalLM": "tiiuae/falcon-7b--modelling_RW.RWForCausalLM",
+    "AutoModelForQuestionAnswering": "tiiuae/falcon-7b--modelling_RW.RWForQuestionAnswering",
+    "AutoModelForSequenceClassification": "tiiuae/falcon-7b--modelling_RW.RWForSequenceClassification",
+    "AutoModelForTokenClassification": "tiiuae/falcon-7b--modelling_RW.RWForTokenClassification"
+  },
+  "bias": false,
+  "bos_token_id": 11,
+  "eos_token_id": 11,
+  "hidden_dropout": 0.0,
+  "hidden_size": 4544,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "RefinedWebModel",
+  "multi_query": true,
+  "n_head": 71,
+  "n_layer": 32,
+  "parallel_attn": true,
+  "quantization_config": {
+    "bnb_4bit_compute_dtype": "float16",
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": false,
+    "llm_int8_enable_fp32_cpu_offload": false,
+    "llm_int8_has_fp16_weight": false,
+    "llm_int8_skip_modules": null,
+    "llm_int8_threshold": 6.0,
+    "load_in_4bit": true,
+    "load_in_8bit": false
+  },
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.31.0",
+  "use_cache": false,
+  "vocab_size": 65024
+}
