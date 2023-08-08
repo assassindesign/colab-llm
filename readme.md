@@ -46,38 +46,30 @@
 ## About The Project
 
 <div align="center">
-<img alt="Notebook Animation" src="https://github.com/pnkr01/colab-llm/assets/83778936/aee72b19-ff66-41d2-b876-38754f0cf750">
+<img alt="Notebook Animation" src="https://img.freepik.com/free-photo/top-view-collection-plastic-cups-table_23-2148780257.jpg?w=996&t=st=1690783986~exp=1690784586~hmac=8d22abe76d170fa00146b09555439dbe76c4fb87276fb512623fbfdd1584f82a",width="250"/>
 </div>
 
-This 
+This repository contains the source code for fine tunning falcon-7b model using our custom model <a href="https://github.com/pnkr01/crawl-script">Dataset
 
 ### Tech Stacks
 
--Python
--Linear Regression for prediction
+<ul>
+  <li>Python</li>
+  <li>Linear Regression for prediction</li>
+</ul>
 
 
 ## Getting Started
-
-Download the script and paste it in Google colab Notebook
-Run all the cells of finetunned.ipynb then
-Run all the cells of inference.ipynb
-Here you will get the output.
-
-## Prerequisites
-1. Open cmd type 'git clone https://github.com/pnkr01/colab-llm'
-2. cd colab-llm
-3. Create virtual environment run python3 -m pip install --user virtualenv
-4. python3 -m venv venv
-5. pip install requirements.txt
-6. Now run main.bat
-7. Hurray! code runs...
-8. Scrap Data...
+<ul>
+  <li>Download the script and paste it in Google colab Notebook</li>
+  <li>Run all the cells of finetunned.ipynb then</li>
+  <li>Run all the cells of inference.ipynb</li>
+  <li>Here you will get the output.</li>
+</ul>
 
 ## APP Screenshots
-
 <div align="center">
   <p float="left">
-  <img src="https://github.com/pnkr01/colab-llm/assets/83778936eed4efd0-77e3-4589-9780-dccddefb8bc4" width="250"/>
-  <img src="https://github.com/pnkr01/colab-llm/assets/83778936077ea3da-cb94-42c6-8b70-e1457329348a" width="250"/>               
+  <img src="https://github.com/pnkr01/colab-llm/assets/83778936/d371811c-5233-46b1-81ac-30eac85ae7a4" width="250"/>
+  <img src="https://github.com/pnkr01/colab-llm/assets/83778936/4ddd8550-99b4-42b7-84b9-2064b251fd51" width="250"/>               
 </div>
