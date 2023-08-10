@@ -38,7 +38,7 @@ time_Fine_Tuning = np.array([16.09, 17.01, 26.44, 26.87, 38.05, 38.71, 39.01, 39
 regression_model = LinearRegression()
 regression_model.fit(dataset_sizes.reshape(-1, 1), time_Fine_Tuning)
 
-x_predicted = np.arange(5000, 1000001, 1000)
+x_predicted = np.arange(5000, 200000, 1000)
 y_predicted = regression_model.predict(x_predicted.reshape(-1, 1))
 
 plt.plot(dataset_sizes, time_Fine_Tuning, marker='o', label='Original Data')
@@ -49,5 +49,5 @@ plt.ylabel("Time for Fine Tuning (minutes)")
 plt.title("Dataset Size vs. Time for Fine Tuning")
 plt.grid(True)
 plt.legend()
-
+plt.savefig("Prediction_Time.png")
 plt.show()
