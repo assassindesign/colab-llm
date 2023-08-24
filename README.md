@@ -34,7 +34,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
     </li>
-    <li><a href="#app-screenshots">App ScreenShots</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
@@ -63,9 +62,3 @@ This repository contains the source code for fine tunning falcon-7b model using 
   <li>Here you will get the output.</li>
 </ul>
 
-## APP Screenshots
-<div align="center">
-  <p float="left">
-  <img src="https://github.com/pnkr01/colab-llm/assets/83778936/d371811c-5233-46b1-81ac-30eac85ae7a4" width="250"/>
-  <img src="https://github.com/pnkr01/colab-llm/assets/83778936/4ddd8550-99b4-42b7-84b9-2064b251fd51" width="250"/>               
-</div>
