@@ -1,10 +1,6 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/pnkr01/colab-llm">
-    <img src="https://www.fidelity.co.uk/static_cms/fil_site_assets/images/fil-logo.svg" alt="Logo" width="150" height="150">
-  </a>
-
   <h1 align="center"><b>Collab Notebook</b></h1>
   <p align="center">
     "It consists of Fine-Tuning Source Code and Resultant Graphs"
